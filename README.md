@@ -1,6 +1,6 @@
-# AOC2020
+# AOC2024
 
-[AOC 2019](https://adventofcode.com/2020/about)
+[AOC 2024](https://adventofcode.com/2024)
 
 Please create a new directory for each day. Example: `01` for the first day. In each day we will
 create a README.md that has the problem description. Also, add any downloadable resources into this
