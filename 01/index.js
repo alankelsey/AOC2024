@@ -41,12 +41,21 @@ https://adventofcode.com/2024/day/1/input
 */
 class CheckList {
 
-    private locationID: number[];
-    private totalDistance: number[];
-    private listOne: number[];
-    private listTwo: number[]
-
+    constructor() {
+        this.locationID = [];
+    let totalDistance = [];
+    let listOne = [];
+    let listTwo = []
     
+
+    async function readFile() {
+        const [fileHandle] = await window.showOpenFilePicker();
+        const file = await fileHandle.getFile();
+        const contents = await file.text();
+      
+        console.log(contents);
+      }
+    }
 
     setArray(dataSet:number[]){
 
