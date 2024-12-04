@@ -42,10 +42,10 @@ https://adventofcode.com/2024/day/1/input
 class CheckList {
 
     constructor() {
-        this.locationID = [];
-    let totalDistance = [];
-    let listOne = [];
-    let listTwo = []
+    this.locationID = [];
+    this.totalDistance = [];
+    this.listOne = [];
+    this.listTwo = []
     
 
     async function readFile() {
